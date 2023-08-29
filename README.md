@@ -1,7 +1,5 @@
 # This code is from the cs50 course.
-My goal:
-..* I want to create my own code
-..* Learn programming
+My learning plan:
 1. html and css
 2. Git
 3. Python
@@ -11,5 +9,7 @@ My goal:
 7. User interface
 8. CI/CD
 9. Scalability and security
+
+# Course summary
 
 Thank you for the course prometheus.org.ua
