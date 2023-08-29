@@ -11,5 +11,9 @@ My learning plan:
 - [ ] 9. Scalability and security
 
 # Course summary
+- HTML CSS
 
-Thank you for the course prometheus.org.ua
+# Resources
+* [prometheus cs50 course](https://prometheus.org.ua/course/course-v1:Prometheus+CS50+2021_T1) is a direct link to the course
+
+Thank you for the course [prometheus.org.ua](https://prometheus.org.ua)
