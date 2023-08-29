@@ -1,6 +1,6 @@
 # This code is from the cs50 course.
 My learning plan:
-1. html and css
+1. HTML and CSS
 2. Git
 3. Python
 4. Django
