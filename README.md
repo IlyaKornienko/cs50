@@ -1,7 +1,7 @@
 # This code is from the cs50 course.
 My learning plan:
 - [x] 1. HTML and CSS
-  - [ ] Task - Create a custom frontend for Google Search, Google Image Search, and Google Advanced Search.
+  - [ ] task - create a custom frontend for Google Search, Google Image Search, and Google Advanced Search.
 - [ ] 2. Git
 - [ ] 3. Python
 - [ ] 4. Django
