@@ -2,20 +2,27 @@
 <html lang="en">
     <head>
         <title>Search</title>
-        <link rel="stylesheet" href="google.css">
+        <link rel="stylesheet" href="css/google.css">
     </head>
 
-    <body>
-        <div class="image-container">
-            <img src="google.jpg" alt="Centered Image">
-        </div>
-        
-        <div class="search-container">
+    <body> 
+        <header>
+            <nav>
+                <ul class="menu">
+                    <li>
+                        <a href="search_image.html">Search image</a>
+                    </li>
+                    <li>
+                        <a href="advanced_image.html">Advanced search</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <main class="main">
+            <img src="images/google.jpg" alt="Google" width="250">
             <form class="form" action="https://google.com/search">
                 <input class="search-input" type="text" placeholder="Search...">
                 <button class="search-button" type="submit">Search</button>
-            </form>
-        </div>
-
+        </main>
     </body>
 </html>
