@@ -1,0 +1,1 @@
+# Your website should have at least three pages: one for Google search, one for Google image search, and one for Google advanced search.
