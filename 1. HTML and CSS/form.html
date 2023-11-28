@@ -1,49 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<title>Form</title>
-</head>
+  <head>
+    <title>Form</title>
+  </head>
 
-<body>
-	<form name="user" action="send.php" method="POST">
-        <fieldset>
-            <legend>Personal information:</legend>
-            <label for="full_name">Your full name:</label>
-            <input type="text" placeholder="Full Name" name="full_name" id="full_name" required="true">
-            <br>
-            <br>
-            <label for="user_age">Your age:</label>
-            <input type="number" placeholder="Age" name="user_age" id="user_age">
-            <br>
-            <br>
-            <label for="password">Your password:</label>
-            <input type="password" placeholder="password" name="password" id="password">
-            <br>
-            <br>
-            <input type="radio" name="gender" value="male">M
-            <input type="radio" name="gender" value="female">F
-            <br>
-            <br>
-            <select name="city">
-                <option value="Lviv">Lviv</option>
-                <option value="Kyiv">Kyiv</option>
-                <option value="Vinnytsia">Vinnytsia</option>
-                <option value="Bahmut">Bahmut</option>
-            </select>
-            <br>
-            <br>
-            <label for="remember">Remember me</label>
-            <input type="checkbox" name="remember" id="remember">
-            <br>
-            <br>
-        </fieldset>
-        <label for="message">Message:</label>
-        <textarea id="message" name="message"></textarea>
-        <br>
-        <br>
-        <input type="submit">
+  <body>
+    <form name="user" action="send.php" method="POST">
+      <fieldset>
+        <legend>Personal information:</legend>
+        <label for="full_name">Your full name:</label>
+        <input
+          type="text"
+          placeholder="Full Name"
+          name="full_name"
+          id="full_name"
+          required="true"
+        />
+        <br />
+        <br />
+        <label for="user_age">Your age:</label>
+        <input type="number" placeholder="Age" name="user_age" id="user_age" />
+        <br />
+        <br />
+        <label for="password">Your password:</label>
+        <input
+          type="password"
+          placeholder="password"
+          name="password"
+          id="password"
+        />
+        <br />
+        <br />
+        <input type="radio" name="gender" value="male" />M
+        <input type="radio" name="gender" value="female" />F
+        <br />
+        <br />
+        <select name="city">
+          <option value="Lviv">Lviv</option>
+          <option value="Kyiv">Kyiv</option>
+          <option value="Vinnytsia">Vinnytsia</option>
+          <option value="Bahmut">Bahmut</option>
+        </select>
+        <br />
+        <br />
+        <label for="remember">Remember me</label>
+        <input type="checkbox" name="remember" id="remember" />
+        <br />
+        <br />
+      </fieldset>
+      <label for="message">Message:</label>
+      <textarea id="message" name="message"></textarea>
+      <br />
+      <br />
+      <input type="submit" />
     </form>
-</body>
-
+  </body>
 </html>
-
